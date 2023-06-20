@@ -1,0 +1,45 @@
+/*generos individuales*/
+body{
+    background: linear-gradient(to right, #b0b2b3, #434444);
+}
+*{
+    color:whitesmoke;
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 40px;
+    color: whitesmoke;
+}
+.generos-encabezado{
+    background-color: rgba(40, 40, 41, 0.685);
+    width: 1500px;
+    height:200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#lista{
+    background-color: rgb(99, 99, 99);
+    width: 1500px;
+}
+#lista:hover{
+    background-color: ghostwhite;
+}
+#lista a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+#lista a:hover{
+    text-decoration: underline;
+    color: black;
+    transition: 0.4s ease;
+}
+ul, li{
+    list-style-type: none;
+}
